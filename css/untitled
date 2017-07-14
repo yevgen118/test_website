@@ -1,0 +1,287 @@
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  /*float: left;*/
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  /*margin: 15px 0;*/
+  font-weight: normal;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+BUNNER
+***********************************/
+
+#mainBunner {
+  margin: 0 5%;
+}
+
+#bunnerText {
+  float: left;
+  margin: 7% 0 7% 5%;
+  color: grey;
+  background-color: yellow;
+  display: block;
+  width: 40%;
+}
+
+#mainBunner p {
+  width: 100%;
+  display: block;
+}
+
+#contactUs {
+  background-color: #ff2d2d;
+  padding: 4% 16%;
+  margin-top: 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #fff;
+
+}
+
+
+/**********************************
+VIDEO
+***********************************/
+
+#videoIndex {
+  float: right;
+  width: 40%;
+  height: 20em;
+  margin: 7% 5% 7% 5%;
+  background-color: #c4c0b1;
+  box-shadow: 10px 10px 5px #888888;
+  border: none;
+  display: inline-block;
+  /*clear: left;*/
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 2% 0;
+  margin: 0 10%;
+  text-transform: uppercase;
+  font-weight: lighter;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 30px 30px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #f6f2f2;
+  border-color: #599a68;
+}
+
+/* nav background on mobile */
+nav {
+  background: #313030;
+}
+
+/* logo text */
+h1, h2 {
+  color: #000000;
+}
+
+/* links */
+/*a {
+  color: #fff;
+}*/
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  background-color: #ff3f40;
+}
+
+
+
+/**********************************
+CLEARFIX
+***********************************/
+
+#mainBunner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#bunnerText::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
